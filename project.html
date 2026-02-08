@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Box Gallery | Accordion & Tab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="light">
+    <h1 class="title">Light Box Gallery</h1>
+    <p class="subtitle">Home Decor Collection | jQuery Fancybox Plugin</p>
+    <div class="project-wrapper">
+    <div class="gallery">
+        <a data-fancybox="gallery" href="images/img1.jpg"><img src="images/img1.jpg" alt="Decor 1"><span class="caption">Modern Sofa Setup</span></a>
+        <a data-fancybox="gallery" href="images/img2.jpg"><img src="images/img2.jpg" alt="Decor 2"><span class="caption">Living Room Design</span></a>
+        <a data-fancybox="gallery" href="images/img3.jpg"><img src="images/img3.jpg" alt="Decor 3"><span class="caption">TV Wall Decor</span></a>
+        <a data-fancybox="gallery" href="images/img4.jpg"><img src="images/img4.jpg" alt="Decor 4"><span class="caption">Modular Kitchen</span></a>
+        
+    </div>
+    </div>
+    </section>
+
+    <section id="project">
+         <header class="page-header">
+        <h2>Modern home Decor Guide</h2>
+        <p>Click any section to explore quick styling Ideas for a premium Interior Look</p>
+    </header>
+
+    <div id="accordion">
+    <h3>Modern Living Room Design</h3>
+  <div>
+    <p>
+    Neutral Colors, Statement Lighting and Minimal Furniture create a luxurious and spacious feel.
+    </p>
+  </div>
+  <h3>Cozy Bedroom Styling</h3>
+  <div>
+    <p>
+    Layered bedding, Warm Lighting, and Soft Textures bring comfort and elegance.
+    </p>
+  </div>
+  <h3>Smart Kitchen Layout</h3>
+  <div>
+    <p>
+        Handle-less Cabinets, Under-Cabinet Lights, and clean surfaces keep the kitchen modern.
+    </p>
+    <ul>
+      <li>Soft-Close Cabinets for noise-free comfort</li>
+      <li>LED Strip Lightting under cabinets</li>
+      <li>Easy-to-clean quartz countertops</li>
+    </ul>
+  </div>
+  <h3>Budget Decor Tips</h3>
+  <div>
+    <p>
+    Small Upgrades like Cushions, Wall Art, Mirrors, and Lighting can transform your home without spending much.
+    </p>
+  </div>
+</div>
+    </section>
+
+<section class="tabs-section">
+
+  <h2 class="tabs-title">Room Style Gallery</h2>
+  <p class="tabs-subtitle">Switch tabs to explore different interior inspirations.</p>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#tab-1">Living Room</a></li>
+      <li><a href="#tab-2">Bedroom</a></li>
+      <li><a href="#tab-3">Kitchen</a></li>
+    </ul>
+
+    <div id="tab-1">
+      <p>Bright spaces with neutral sofas, layered lighting, and elegant wall art create a welcoming living area.</p>
+    </div>
+
+    <div id="tab-2">
+      <p>Soft textures, pastel tones, and warm lamps make bedrooms relaxing and cozy.</p>
+    </div>
+
+    <div id="tab-3">
+      <p>Minimal cabinets, smart storage, and modern lighting keep kitchens stylish and functional.</p>
+    </div>
+  </div>
+</section>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
